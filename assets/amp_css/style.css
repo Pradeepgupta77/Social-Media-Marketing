@@ -249,6 +249,10 @@ main {
   color: var(--white);
 }
 
+#hero .hero_left li > img {
+  width: 20px;
+}
+
 .hero_left .hero_left_btn_con {
   width: 100%;
   display: flex;
@@ -418,7 +422,7 @@ main {
 
 
 /* Our Clients section start*/
-#ourClient {
+/* #ourClient {
   background: var(--white);
 }
 .ourClient_con {
@@ -507,7 +511,7 @@ main {
   margin-bottom: 25px;
   font-size: 18px;
   font-weight: 600;
-}
+} */
 
 /* Our Clients section End*/
 
@@ -1476,9 +1480,9 @@ main {
   .floating-btn-container {
     display: block;
   }
-  .tab button {
+  /* .tab button {
     padding: 10px 20px;
-  }
+  } */
   .testimonial_card > p {
     min-height: 180px;
   }
@@ -1617,9 +1621,9 @@ main {
   .ourprocess_card_wraper img {
     display: none;
   }
-  .tab button {
+  /* .tab button {
     margin: auto 10px;
-  }
+  } */
   .ourprocess_card {
     min-height: 230px;
   }
@@ -1654,9 +1658,9 @@ main {
     height: 200px;
     min-width: 200px;
   }
-  #ourClient .ourClient_con .tabcontent {
+  /* #ourClient .ourClient_con .tabcontent {
     padding: 0;
-  }
+  } */
   .portfolio_card {
     min-height: 400px !important;
   }
@@ -1685,7 +1689,7 @@ main {
     width: 80px;
   }
 
-  #ourClient .ourClient_img_con .ourClient_img_div {
+  /* #ourClient .ourClient_img_con .ourClient_img_div {
     width: 48%;
   }
 
@@ -1703,7 +1707,7 @@ main {
   #ourClient .ourClient_img_con .ourClient_img_div.ourClient_img14,
   #ourClient .ourClient_img_con .ourClient_img_div.ourClient_img15 {
     border-bottom: 1px solid #ddd;
-  }
+  } */
 
   #whatMakesDifferent .normalpara {
     font-size: 12px !important;
@@ -1835,10 +1839,10 @@ main {
   .ourprocess_card_wraper {
     width: 100%;
   }
-  .tab button {
+  /* .tab button {
     padding: 5px;
     font-size: 14px;
-  }
+  } */
   .portfolio_con .portfolio_top_con {
     flex-wrap: wrap;
   }
@@ -1891,12 +1895,12 @@ main {
 }
 
 @media screen and (max-width: 450px) {
-  .tab button {
+  /* .tab button {
     margin: 10px 30px;
-  }
-  .ourClient_img_div {
+  } */
+  /* .ourClient_img_div {
     width: 45% !important;
-  }
+  } */
   .portfolio_card .portfolio_card_info {
     padding: 15px 40px 15px 15px;
   }
