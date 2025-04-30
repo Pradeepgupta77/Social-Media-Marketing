@@ -22,12 +22,12 @@ body {
 :root {
   --white: #fff;
   --black: #000;
-  --blue: #14032c;
+  --blue: #0E4E7C;
   --dark-white: #ccc;
   --light-black: #ddd;
   --sec-dark-bg: #f4f4f4;
   --sec-light-bg: #f9f9f9;
-  --btn-gradient: linear-gradient(to right, orange, purple);
+  --btn-gradient: linear-gradient(to right, #ff5a28, #ffc727);
 }
 
 /* main section start */
