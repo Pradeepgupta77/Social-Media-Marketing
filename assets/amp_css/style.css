@@ -633,7 +633,7 @@ main {
 .slider .testimonial_card {
   width: 31%;
   height: 100%;
-  min-height: 400px;
+  min-height: 320px;
   background-color: #fff;
   margin-left: 20px;
   position: relative;
@@ -645,7 +645,7 @@ main {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
-.testimonial_card .testimonial_card_user_img {
+/* .testimonial_card .testimonial_card_user_img {
   position: absolute;
   left: 24px;
   top: -35px;
@@ -659,15 +659,15 @@ main {
   border: 1px solid var(--light-black);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s ease;
-}
+} */
 
-.testimonial_card:hover .testimonial_card_user_img {
+/* .testimonial_card:hover .testimonial_card_user_img {
   transform: translateY(-5px);
-}
+} */
 
-.testimonial_card_user_img img {
+/* .testimonial_card_user_img img {
   width: 100%;
-}
+} */
 
 .testimonial_card p {
   text-align: start;
@@ -1113,7 +1113,7 @@ main {
   }
 
   .slider .testimonial_card {
-      min-height: 475px;
+      min-height: 430px;
   }
   
   /* .portfolio_card {
@@ -1161,7 +1161,7 @@ main {
   }
 
   #testimonials .slider .testimonial_card {
-    min-height: 350px;
+    min-height: 300px;
     margin-left: 10px;
     margin-right: 10px;
   }
@@ -1314,7 +1314,7 @@ main {
   }
 
   #testimonials .slider .testimonial_card {
-    min-height: 400px;
+    min-height: 300px;
   }
 
   #strategyCall .strategy_con .strategy_left img {
@@ -1471,7 +1471,7 @@ main {
   }
 
   #testimonials .slider .testimonial_card {
-    min-height: 350px;
+    min-height: 300px;
   }
 
   #faq .faq_con .faq-heading {
