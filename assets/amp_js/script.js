@@ -125,36 +125,6 @@ faqItems.forEach((item) => {
 
 // FAQ Accordion End
 
-// portfolio section popup Start
-
-const popup = document.getElementById("popup");
-const closeBtn = document.getElementById("closePopup");
-const popupImage = document.getElementById("popupImage");
-const openBtns = document.querySelectorAll(".portfolio_card a");
-
-openBtns.forEach((btn) => {
-  btn.addEventListener("click", function (e) {
-    e.preventDefault();
-    const imgSrc = this.getAttribute("data-img");
-    popupImage.src = imgSrc;
-    popup.style.display = "flex";
-  });
-});
-
-closeBtn.addEventListener("click", () => {
-  popup.style.display = "none";
-  popupImage.src = ""; // Optional: clear image on close
-});
-
-window.addEventListener("click", function (e) {
-  if (e.target === popup) {
-    popup.style.display = "none";
-    popupImage.src = "";
-  }
-});
-
-// portfolio section popup End
-
 // mobile flowting btn js start
 
 const mainBtn = document.getElementById("mainBtn");
