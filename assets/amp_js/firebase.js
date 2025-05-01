@@ -46,7 +46,7 @@ digitalMarketingForm.addEventListener("submit", async (e) => {
   let Message = document.getElementsByClassName("Message")[0].value;
 
   try {
-    await addDoc(collection(db, "web"), {
+    await addDoc(collection(db, "smm"), {
       Form_type,
 
       Name,
@@ -96,7 +96,7 @@ digitalMarketingPopupForm.addEventListener("submit", async (e) => {
   let Message = document.getElementsByClassName("Message")[1].value;
 
   try {
-    await addDoc(collection(db, "web"), {
+    await addDoc(collection(db, "smm"), {
       Form_type,
 
       Name,

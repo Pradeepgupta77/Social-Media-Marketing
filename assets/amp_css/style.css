@@ -351,74 +351,91 @@ main {
 
 /*hero section  end */
 
+/* ourMerits section start */
 
-/* What Makes Us Different? start */
-
-#whatMakesDifferent {
-  background-color: var(--white);
-  flex-direction: column;
+ .ourMerits_card_con .heading_2 {
+    text-align: center;
+ }
+ .ourMerits_card_con .normalpara {
+    text-align: center;
+    margin-top: 15px;
+ }
+ .ourMerits_card_con .ourMerits_wrap{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+ }
+ .ourMerits_wrap .ourMerits_left,
+ .ourMerits_wrap .ourMerits_right {
+  position: relative;
+ }
+ .ourMerits_left .ourMerits_card_list,
+ .ourMerits_right .ourMerits_card_list {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 40px;
+  width: 290px;
 }
-
-#whatMakesDifferent .whatMakesDifferent_text_con .heading_2 {
-  text-align: center;
-}
-
-#whatMakesDifferent .whatMakesDifferent_text_con .normalpara {
-  text-align: center;
-  margin-top: 15px;
-  margin-bottom: 30px;
-}
-
-.whatMakesDifferent_con {
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 15px;
-}
-
-.whatMakesDifferent_features {
-  background-color: var(--white);
-  border-radius: 12px;
-  border: 1px solid var(--light-black);
-  padding: 25px;
+.ourMerits_card_con .ourMerits_card_list .normalpara {
   text-align: left;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-  transition: transform 0.3s ease;
-  width: 32%;
-  min-height: 240px;
-}
-
-.whatMakesDifferent_features:hover {
-  transform: translateY(-5px);
-}
-
-.icon_container {
-  width: 60px;
-  height: 60px;
-  display: flex;
-  align-items: center;
-}
-
-.icon_container img {
-  width: 80px;
-  height: 80px;
-  object-fit: contain;
-}
-
-.whatMakesDifferent_features h3 {
-  color: var(--black);
-
   margin-top: 15px;
+  font-size: 16px;
+}
+.ourMerits_left ul {
+  margin-bottom: 40px;
+}
+.ourMerits_card_list ul {
+  list-style: none;
+  padding-left: 0;
 }
 
-.whatMakesDifferent_features p {
-  color: var(--black);
-  margin-top: 5px;
+.ourMerits_left .ourMerits_card_list li,
+.ourMerits_right .ourMerits_card_list li {
+  position: relative;
+  padding-left: 25px;
 }
 
-/* What Makes Us Different? End */
+.ourMerits_left .ourMerits_card_list li::before {
+  content: "";
+  position: absolute;
+  left: -5px;
+  top: 0.3em;
+  width: 18px;
+  height: 18px;
+  background: url('../amp_images/Wrong.png') no-repeat center center;
+  background-size: contain;
+}
+
+.ourMerits_right .ourMerits_card_list li::before {
+  content: "";
+  position: absolute;
+  left: -5px;
+  top: 0.3em;
+  width: 18px;
+  height: 18px;
+  background: url('../amp_images/Right\ Icon.png') no-repeat center center;
+  background-size: contain;
+}
+.ourMerits_wrap .ourMerits_left img,
+.ourMerits_wrap .ourMerits_right img{
+  width: 430px;
+}
+.ourMerits_left .ourMerits_card_heading,
+.ourMerits_right .ourMerits_card_heading {
+  position: absolute;
+  top: 90px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 18px;
+}
+
+
+/* ourMerits section end */
 
 /* Infographic section Start */
 
@@ -1213,9 +1230,9 @@ main {
     min-width: 200px;
   }
 
-  #whatMakesDifferent .whatMakesDifferent_features {
+  /* #whatMakesDifferent .whatMakesDifferent_features {
     min-height: 230px;
-  }
+  } */
 
   #testimonials .slider .testimonial_card {
     min-height: 300px;
@@ -1308,6 +1325,9 @@ main {
     width: 49%;
     padding-right: 130px;
   }
+  .ourprocess_card {
+    min-height: 370px;
+  }
 }
 
 @media screen and (max-width: 932px) {
@@ -1315,9 +1335,9 @@ main {
     font-size: 32px;
   }
 
-  #whatMakesDifferent .whatMakesDifferent_features {
+  /* #whatMakesDifferent .whatMakesDifferent_features {
     min-height: 210px;
-  }
+  } */
 
   #ourService .ourService_card_con .ourService_card .ourService_card_img {
     height: 180px;
@@ -1362,10 +1382,10 @@ main {
     width: 49%;
   }
 
-  #whatMakesDifferent .whatMakesDifferent_features {
+  /* #whatMakesDifferent .whatMakesDifferent_features {
     width: 49%;
     min-height: 231px;
-  }
+  } */
 
   #footer_sec .footer_con .footer_bottom {
     justify-content: center;
@@ -1435,7 +1455,7 @@ main {
     display: none;
   }
   .ourprocess_card {
-    min-height: 230px;
+    min-height: 240px;
   }
 }
 
@@ -1452,11 +1472,10 @@ main {
     max-height: 315px;
   }
 
-  #whatMakesDifferent .whatMakesDifferent_features {
+  /* #whatMakesDifferent .whatMakesDifferent_features {
     width: 47%;
-
     min-height: 231px;
-  }
+  } */
   #ourService .ourService_card_con .ourService_card {
     width: 47%;
   }
@@ -1495,32 +1514,6 @@ main {
 
   #hero .hero_left .star_image {
     width: 80px;
-  }
-
-  #whatMakesDifferent .normalpara {
-    font-size: 12px !important;
-  }
-
-  #whatMakesDifferent .boldpera {
-    font-size: 12px !important;
-  }
-
-  #whatMakesDifferent .whatMakesDifferent_features {
-    align-items: center;
-    width: 48%;
-    min-height: 220px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-  }
-  #whatMakesDifferent .whatMakesDifferent_features p .remove_br {
-    display: none;
-  }
-
-  #whatMakesDifferent .whatMakesDifferent_features .icon_container img {
-    width: 60px;
-    height: 60px;
   }
 
   #ourService .ourService_card_con .ourService_card {
@@ -1686,13 +1679,6 @@ main {
 }
 
 @media screen and (max-width: 412px) {
-  #whatMakesDifferent .whatMakesDifferent_features {
-    width: 47% !important;
-  }
-
-  #whatMakesDifferent .whatMakesDifferent_features {
-    padding: 10px;
-  }
 
   #ourService .ourService_card_con .ourService_card {
     width: 47% !important;
