@@ -460,7 +460,6 @@ main {
   min-height: 400px;
 }
 .infographic_wrap .infographic_card:nth-child(even) .infographic_card_cur{
-  /* background: red; */
   align-self:end;
 }
 .infographic_card .infographic_card_cur{
@@ -1176,6 +1175,14 @@ main {
   #testimonials .slick-prev.slick-arrow {
     display: none !important;
   }
+
+  .infographic_card_cur .infographic_card_cont {
+    width: 150px;
+  }
+  .infographic_card .infographic_card_cur {
+    height: 220px;
+    width: 220px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -1277,6 +1284,30 @@ main {
   .testimonial_card .testimonial_card_user_details {
     min-height: 120px;
   }
+  .infographic_card_cur .infographic_card_cont {
+    width: 170px;
+  }
+  .infographic_card .infographic_card_cur {
+      height: 230px;
+      width: 230px;
+  }
+  .infographic_card:nth-child(even) .infographic_card_cur .infographic_card_cont {
+      top: 15%;
+  }
+  .infographic_wrap .infographic_card {
+    width: 30%;
+  }
+  .infographic_wrap .infographic_card:nth-child(even) .infographic_card_cur{
+    align-self:start;
+  }
+  .infographic_wrap .infographic_card:nth-child(4) {
+    width: 49%;
+    padding-left: 130px;
+  }
+  .infographic_wrap .infographic_card:nth-child(5) {
+    width: 49%;
+    padding-right: 130px;
+  }
 }
 
 @media screen and (max-width: 932px) {
@@ -1291,6 +1322,12 @@ main {
   #ourService .ourService_card_con .ourService_card .ourService_card_img {
     height: 180px;
     min-width: 180px;
+  }
+  .infographic_wrap .infographic_card:nth-child(4) {
+    padding-left: 120px;
+  }
+  .infographic_wrap .infographic_card:nth-child(5) {
+    padding-right: 120px;
   }
 }
 
@@ -1427,6 +1464,13 @@ main {
   #ourService .ourService_card_con .ourService_card .ourService_card_img {
     height: 200px;
     min-width: 200px;
+  }
+  .infographic_card .infographic_card_cur {
+    height: 220px;
+    width: 220px;
+  }
+  .infographic_card_cur .infographic_card_cont {
+      width: 160px;
   }
 }
 
@@ -1583,6 +1627,16 @@ main {
   .ourprocess_card_wraper {
     width: 100%;
   }
+  .infographic_wrap .infographic_card {
+    width: 49%;
+  }
+  .infographic_wrap .infographic_card:nth-child(4) {
+    padding-left: 0;
+  }
+  .infographic_wrap .infographic_card:nth-child(5) {
+      padding-right: 0;
+      width: 100%;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -1613,6 +1667,17 @@ main {
     flex-direction: row;
     align-items: center;
     justify-content: start;
+  }
+  .infographic_wrap .infographic_card,
+  .infographic_wrap .infographic_card:nth-child(4) {
+    width: 100%;
+  }
+  .infographic_card .infographic_card_cur {
+    height: 250px;
+    width: 250px;
+  }
+  .infographic_card_cur .infographic_card_cont {
+      width: 180px;
   }
 }
 
