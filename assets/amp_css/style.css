@@ -438,7 +438,9 @@ main {
 /* ourMerits section end */
 
 /* Infographic section Start */
-
+#infographic{
+  background: var(--sec-dark-bg);
+}
 #infographic .infographic_card_cont .normalpara {
   font-size: 14px;
   line-height: 1.3;
@@ -613,7 +615,7 @@ main {
 /* our process start */
 
 #ourProcess {
-  background: var(--sec-dark-bg);
+  background: var(--white);
 }
 
 #ourProcess .ourProcess_con > .heading_2 {
@@ -700,7 +702,7 @@ main {
 /* Testimonials start */
 
 #testimonials {
-  background-color: #fff;
+  background-color: var(--sec-light-bg);
 }
 
 .testimonials_con .heading_2 {
