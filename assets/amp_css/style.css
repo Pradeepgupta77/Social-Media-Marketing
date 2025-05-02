@@ -644,7 +644,6 @@ main {
 .ourprocess_card {
   width: 90%;
   min-height: 320px;
-  background-color: var(--white);
   padding: 70px 30px;
   border-top: 5px solid;
   position: relative;
