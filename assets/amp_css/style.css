@@ -1717,7 +1717,10 @@ main {
 }
 
 @media screen and (max-width: 450px) {
-  
+  #hero .hero_form_con h3 {
+    padding-left: 25px;
+    padding-right: 25px;
+}
 }
 
 @media screen and (max-width: 412px) {
@@ -1752,7 +1755,50 @@ main {
   }
   .hero_form_con h3 {
     padding-right: 30px;
+  }
+  .ourMerits_left .ourMerits_card_list, 
+  .ourMerits_right .ourMerits_card_list {
+      width: 245px;
+      bottom: 60px;
+  }
+  .ourMerits_left .ourMerits_card_heading, 
+  .ourMerits_right .ourMerits_card_heading {
+      top: 70px;
+      font-size: 14px !important;
+  }
+  .ourMerits_wrap .ourMerits_left img, 
+  .ourMerits_wrap .ourMerits_right img {
+      width: 320px;
+  }
+  .ourMerits_card_con .ourMerits_card_list .normalpara {
+      font-size: 12px !important;
+  }
+  .ourMerits_left ul {
+    margin-bottom: 0px;
+  }
+
 }
+@media screen and (max-width: 359px) {
+  .ourMerits_left ul {
+    margin-bottom: 0px;
+  }
+  .ourMerits_wrap .ourMerits_left img, 
+  .ourMerits_wrap .ourMerits_right img {
+      width: 100%;
+  }
+  .ourMerits_left .ourMerits_card_list, 
+  .ourMerits_right .ourMerits_card_list {
+      width: 75%;
+  }
+  .ourMerits_left .ourMerits_card_list, 
+  .ourMerits_right .ourMerits_card_list {
+      bottom: 30px;
+  }
+  .ourMerits_left .ourMerits_card_heading, 
+  .ourMerits_right .ourMerits_card_heading {
+      top: 65px;
+      font-size: 13px !important;
+  }
 }
 
 /* Responsiveness End */
