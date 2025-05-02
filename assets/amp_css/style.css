@@ -50,7 +50,7 @@ main {
   display: inline-block;
   width: auto;
   padding: 12px 36px;
-  color: #fff;
+  color: var(--white);
   height: auto;
   border-radius: 8px 8px 0 0;
   transition: opacity 0.3s ease;
@@ -135,7 +135,7 @@ main {
   opacity: 0;
   pointer-events: none;
   transition: all 0.3s ease;
-  background: white;
+  background: var(--white);
   border-radius: 50%;
   width: 50px;
   height: 50px;
@@ -430,12 +430,84 @@ main {
   top: 90px;
   left: 50%;
   transform: translateX(-50%);
-  color: #fff;
+  color: var(--white);
   font-size: 18px;
 }
 
 
 /* ourMerits section end */
+
+/* SEO Diff start */
+
+#seoDiff {
+  background-image: url("../amp_images/bg\ Image\ 2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.seoDiff_con .heading_2 {
+  color: var(--white);
+  text-align: center;
+}
+
+.seoDiff_con .normalpara {
+  color: var(--white);
+  text-align: center;
+  margin-top: 15px;
+}
+
+.seoDiff_con .seoDiff_card_con {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.seoDiff_card_con .seoDiff_card {
+  background: var(--white);
+  border-radius: 16px;
+  margin: 0 15px 20px 15px;
+}
+
+.seoDiff_card .seoDiff_card_head {
+  background: var(--btn-gradient);
+  border-radius: 16px 16px 0 0;
+  text-align: center;
+  height: 120px;
+  position: relative;
+  width: 100%;
+}
+
+.seoDiff_card_head img {
+  background-color: var(--white);
+  border-radius: 50%;
+  width: 100px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: -50px;
+  transition: transform 0.3s ease;
+}
+
+.seoDiff_card:hover img {
+  transform: translateY(-5px);
+}
+
+.seoDiff_card_content {
+  padding: 70px 40px 40px;
+  text-align: center;
+  min-height: 260px;
+}
+
+.seoDiff_card .seoDiff_card_content .normalpara {
+  color: var(--black);
+}
+
+#seoDiff .slick-dots li button:before {
+  color: var(--white);
+}
+
+/* SEO Diff End */
 
 /* Infographic section Start */
 #infographic{
@@ -470,11 +542,9 @@ main {
   
 }
 .infographic_wrap .infographic_card{
-  /* background: red; */
   width: 19%;
   padding: 5px;
   display: flex;
-  /* align-items: start; */
   justify-content: center;
   min-height: 400px;
 }
@@ -538,80 +608,6 @@ main {
 }
 /* Infographic section End */
 
-
-/* SEO Diff start */
-
-#seoDiff {
-  background-image: url("../amp_images/bg\ Image\ 2.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.seoDiff_con .heading_2 {
-  color: var(--white);
-  text-align: center;
-}
-
-.seoDiff_con .normalpara {
-  color: var(--white);
-  text-align: center;
-  margin-top: 15px;
-}
-
-.seoDiff_con .seoDiff_card_con {
-  width: 100%;
-  margin-top: 30px;
-}
-
-.seoDiff_card_con .seoDiff_card {
-  background: var(--white);
-  border-radius: 16px;
-  margin: 0 15px 20px 15px;
-}
-
-.seoDiff_card .seoDiff_card_head {
-  background: var(--btn-gradient);
-  border-radius: 16px 16px 0 0;
-  text-align: center;
-  height: 120px;
-  position: relative;
-  width: 100%;
-}
-
-.seoDiff_card_head img {
-  background-color: #fff;
-  border-radius: 50%;
-  width: 100px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  bottom: -50px;
-  transition: transform 0.3s ease;
-}
-
-.seoDiff_card:hover img {
-  transform: translateY(-5px);
-}
-
-.seoDiff_card_content {
-  padding: 70px 40px 40px;
-  text-align: center;
-  min-height: 260px;
-}
-
-.seoDiff_card .seoDiff_card_content .normalpara {
-  color: var(--black);
-}
-
-#seoDiff .slick-dots li button:before {
-  color: var(--white);
-}
-
-/* SEO Diff End */
-
-
 /* our process start */
 
 #ourProcess {
@@ -655,6 +651,7 @@ main {
   clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  background: var(--dark-white);
 }
 
 .ourprocess_card_con .ourprocess_card_wraper:nth-child(1) .ourprocess_card,
@@ -706,7 +703,7 @@ main {
 }
 
 .testimonials_con .heading_2 {
-  color: #000;
+  color: var(--black);
   text-align: center;
 }
 
@@ -731,7 +728,7 @@ main {
   width: 31%;
   height: 100%;
   min-height: 320px;
-  background-color: #fff;
+  background-color: var(--white);
   margin-left: 20px;
   position: relative;
   padding: 40px 24px 24px 24px;
@@ -750,7 +747,7 @@ main {
 }
 
 .testimonial_card .testimonial_card_user_details {
-  border-top: 1px solid #ddd;
+  border-top: 1px solid var(--light-black);
   position: relative;
   padding-top: 25px;
   width: 100%;
@@ -769,7 +766,7 @@ main {
 .slick-prev:before,
 .slick-next:before {
   font-size: 36px !important;
-  color: #000;
+  color: var(--black);
 }
 
 .slick-dots li button:before {
@@ -1742,15 +1739,6 @@ main {
   }
 }
 
-@media screen and (max-width: 400px) {
-  
-}
-
-@media screen and (max-width: 380px) {
-  
-}
-
-
 @media screen and (max-width: 370px) {
   #footer_sec .footer_bottom .footer_bottom_right .social-icons a {
     margin-right: 8px;
@@ -1778,7 +1766,6 @@ main {
   .ourMerits_left ul {
     margin-bottom: 0px;
   }
-
 }
 @media screen and (max-width: 359px) {
   .ourMerits_left ul {
